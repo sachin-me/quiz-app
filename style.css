@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background: url(goran-ivos-771531-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 92vh;
+  color: #222;
+}
+h1 {
+  font-size: 60px;
+  color: #333;
+  font-family: 'Mali', cursive;
+}
+.category-btn {
+  background: transparent;
+  border: 1px solid crimson;
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Dekko', cursive;
+}
+.question {
+  padding-top: 20px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: 'Delius', cursive;
+}
+.choice {
+  padding-top: 10px;
+  font-size: 25px;
+  font-family: 'Delius Swash Caps', cursive;
+}
+li {
+  padding: 2px 0;
+  list-style: none;
+  color: crimson;
+}
+li::before {
+  content: "\2022";
+  color: #444;
+}
+.submit-btn {
+  background: transparent;
+  border: 1px solid crimson;
+  padding: 2px;
+  margin: 2px 0;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Dekko', cursive;
+}
+.score {
+  font-size: 30px;
+}
+.question-status {
+  font-family: 'Delius Swash Caps', cursive;
+  font-size: 20px;
+  color: crimson;
+}
